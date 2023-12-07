@@ -2,7 +2,7 @@
 /**
  * @copyright  Copyright (c) 2022 Xii Group. (https://xiigroup.co.za)
  * @author     Sipho George Selabe <sg.selabe@xiigroup.co.za>
- */
+ **/
 class CSuite{
   public $domain = 'example.co.za';
   
