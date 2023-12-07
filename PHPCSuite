@@ -4,10 +4,8 @@
  * @author     Sipho George Selabe <sg.selabe@xiigroup.co.za>
  **/
 class CSuite{
-  public $domain = 'example.co.za';
-  
-  public function __construct($username=null, $key=null){
-		$this->url = "https://$this->domain/api/index.php";
+  public function __construct($domain, $username=null, $key=null){
+		$this->url = "https://$domain/api/index.php";
 		$this->payload = [];
 		$this->authentication = "$username:$key";
 	}
