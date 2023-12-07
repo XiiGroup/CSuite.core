@@ -1,7 +1,7 @@
 # CSuite.core
 Powerful API Library for interacting with CSuite
 
-# Sample Usage
+# Sample PHP Usage
 This sample php code creates a new contact into csuite for the platform whatsapp.
 Replace **CSUITE_DOMAIN** , **API_USERNAME** & **API_KEY** with your csuite API Information, make sure you installed whatsapp plugin on csuite before using whatsapp platform.
 
