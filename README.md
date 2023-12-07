@@ -3,7 +3,7 @@ Powerful API Library for interacting with CSuite
 
 # Sample Usage
 This sample php code creates a new contact into csuite for the platform whatsapp.
-Replace **CSUITE_DOMAIN** , **API_USERNAME** , **API_KEY** with your csuite API Information
+Replace **CSUITE_DOMAIN** , **API_USERNAME** & **API_KEY** with your csuite API Information
 
 ```<?php
 require_once('PHPCSuite.php');
