@@ -7,7 +7,7 @@ Replace **CSUITE_DOMAIN** , **API_USERNAME** & **API_KEY** with your csuite API 
 
 ```<?php
 require_once('PHPCSuite.php');
-$csuite = new CSuite("CSUITE_DOMAIN", "API_USERNAME", "API_KEY"); //CSUITE_DOMAIN - without leading http:// or https://, e.g. **yourdomain.com**
+$csuite = new CSuite("CSUITE_DOMAIN", "API_USERNAME", "API_KEY");
 $payload = [
 'endpoint'=>'contacts',
 'action'=>'new',
