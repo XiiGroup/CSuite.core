@@ -6,7 +6,7 @@ This sample php code creates a new contact into csuite for the platform whatsapp
 Replace **UXP_DOMAIN** , **API_USERNAME** & **API_KEY** with your csuite API Information, make sure you installed whatsapp plugin on UXP before using whatsapp platform.
 
 ```<?php
-require_once('PHPCSuite.php');
+require_once('PHPUXP.php');
 $uxp = new UXP("UXP_DOMAIN", "API_USERNAME", "API_KEY");
 $payload = [
 'endpoint'=>'contacts',
