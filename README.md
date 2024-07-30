@@ -7,7 +7,7 @@ Replace **UXP_DOMAIN** , **API_USERNAME** & **API_KEY** with your csuite API Inf
 
 ```<?php
 require_once('PHPCSuite.php');
-$uxp = new CSuite("UXP_DOMAIN", "API_USERNAME", "API_KEY");
+$uxp = new UXP("UXP_DOMAIN", "API_USERNAME", "API_KEY");
 $payload = [
 'endpoint'=>'contacts',
 'action'=>'new',
