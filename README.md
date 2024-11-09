@@ -1,4 +1,4 @@
-# Unified Xperience
+# Unified Xperience 360
 Powerful API Library for interacting with UXP
 
 # Sample PHP Usage
